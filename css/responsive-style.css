@@ -1,0 +1,90 @@
+@media (max-width:1300px){
+    /*2 navbar*/
+}
+
+@media(max-width:1230px){
+     /*2 navbar*/
+    .header-wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 12px 10px !important;
+    }
+
+     /* 3 Banner*/
+    .banner-wrapper .banner-title{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:1070px){
+     /*2 navbar*/
+    .header-wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+        /* 5 About*/
+    .about-wrapper .about-title{
+        font-size: 16px;
+
+    }
+
+}
+@media(max-width:991px){
+    .header-wrapper .navbar-brand img{
+        width:180px;
+    }
+    .header-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top:15px;
+        font-size: 18px;
+    }
+    .header-wrapper .nav-item:last-child .nav-link{
+        margin-bottom:20px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding:12px 29px !important;
+    }
+    .header-wrapper .navbar-collapse{
+        background:var(--bg-white);
+    }
+    /* 3 banner*/
+    .banner-wrapper .banner-title{
+        font-size: 36px;
+    }
+    /* 5 about*/
+    .about-wrapper .about-number{
+        margin:20px auto;
+    }
+    .about-wrapper .about-title{
+        font-size: 24px;
+    }
+}   
+@media(max-width:767px){
+    /*3 banner*/
+    .banner-wrapper{
+        padding:100px 0 100px;
+    }
+    .banner-wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner-wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+}
+/*pticing */
+.free-trial .free-title{
+    font-size: 24px;
+}
+/*FAQ */
+.faqs-wrapper .accordion-buttom{
+    font-size: 18px;
+}
+/*footer*/
+.footer-wrapper .footer-logo img{
+    max-width: 50%;
+}
